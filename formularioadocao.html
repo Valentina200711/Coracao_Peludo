@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-BR">
+
+	  <head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		
+		<!-- Logo icone da aba-->
+		<link rel="shortcut icon" href="img/logolimpa.png" type="image/x-icon">
+
+		<title>Coração Peludo</title>
+	  </head>
+	  
+	  <body>
+		
+			<!-- Início do Nav (Menu) -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			  <a class="navbar-brand" href="index.html">
+				<img src="img/logolimpa.png"  width="60" height="60"  alt="Logo da Instituição">
+			  </a>			  
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				  <li class="nav-item active">
+					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="quem_somos.html"> Quem Somos </a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="adote.html"> Adote </a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="voluntario.html"> Voluntário </a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="doacao.html"> Doações </a>
+				  </li>
+				  <li class="nav-item active">
+					<a class="nav-link" href="contato.html"> Contato </a>
+				  </li>				  
+				</ul>
+			  </div>
+			</nav>			
+			<!-- Fim do Nav (Menu) -->
+			
+			<!--Início Home -->
+			</br> </br> </br> </br> 
+			<p> Se você está interessado em adotar um animal, por favor, preencha o formulário abaixo. </p>
+			<p>Suas respostas nos ajudarão a encontrar o melhor animal para você e a garantir que todos os animais sejam colocados em lares adequados.</p>
+			<form>
+			<h4>1. Informações Pessoais</h4>
+				  <div class="form-group col-md-11">
+					<label for="exampleFormControlInput1">Nome Completo</label>
+					<input type="email" class="form-control">
+				  </div>
+				   <div class="form-group col-md-11">
+					<label for="exampleFormControlInput1">Data de nascimento</label>
+					<input type="email" class="form-control" id="inputnascimento" placeholder="dia/mês/ano">
+				  </div>
+				  <div class="form-group col-md-11">
+					<label for="inputAddress">Endereço</label>
+					<input type="text" class="form-control" id="inputAddress" placeholder="Rua Principal, 1234">
+				  </div>
+				  <div class="form-row">
+					<div class="form-group col-md-5">
+					  <label for="inputCity">Cidade</label>
+					  <input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="form-group col-md-4">
+					  <label for="inputState">Estado</label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>AC</option>
+						<option>AL</option>
+					    <option>AP</option>
+					    <option>AM</option>
+					    <option>BA</option>
+						<option>CE</option>
+						<option>DF</option>
+						<option>ES</option>
+					    <option>GO</option>
+					    <option>MA</option>
+					    <option>MT</option>
+						<option>MS</option>
+						<option>MG</option>
+						<option>PA</option>
+					    <option>PB</option>
+					    <option>PR</option>
+					    <option>PE</option>
+						<option>PI</option>
+						<option>RJ</option>
+						<option>RN</option>
+					    <option>RS</option>
+					    <option>RO</option>
+					    <option>SC</option>
+						<option>SP</option>
+						<option>SE</option>
+						<option>TO</option> 
+					  </select>
+					</div>
+					<div class="form-group col-md-2">
+					  <label for="inputZip">CEP</label>
+					  <input type="text" class="form-control" id="inputZip">
+					</div>
+				  </div>
+				  <div class="form-row">
+				  <div class="form-group col-md-5">
+					<label for="exampleFormControlInput1">Telefone</label>
+					<input type="text" class="form-control" id="inputAddress" placeholder="(xx) xxxx-xxxx">
+				  </div>
+				  <div class="form-group col-md-6">
+					<label for="exampleFormControlInput1">Email address</label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				  </div>
+				 </form>
+				 
+			<form>
+				  <h4>  2. Informações sobre o Lar</h4>
+				   <div class="form-row">
+					<div class="form-group col-md-4">
+					  <label for="inputState">Tipo de Residência</label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Casa</option>
+						<option>Apartamento</option>
+						</select>
+					</div>
+					<div class="form-group col-md-5">
+					  <label for="inputCity">Quantidade de pessoas</label>
+					  <input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="form-group col-md-3">
+					  <label for="inputCity">Idade média</label>
+					  <input type="text" class="form-control" id="inputCity">
+					</div>
+					</div>
+					<div class="form-row">
+					<div class="form-group col-md-4">
+					  <label for="inputState">Algum pet atualmente</label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Sim</option>
+						<option>Não</option>
+						</select>
+					</div>
+					<div class="form-group col-md-7">
+					  <label for="inputCity"> Se sim, forneça detalhes sobre o(s) animal(is):</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome,espécie,raça,idade,temperamento e descrição">
+					</div>
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity">O que você faz para garantir a segurança dos seus animais e a sua propriedade?</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="monitoramento">
+					</div> 
+					<div class="form-group col-md11">
+					  <label for="inputState">Você está ciente das despesas envolvidas em cuidar de um animal? </label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Sim</option>
+						<option>Não</option>
+						</select>
+					</div>
+			</form>
+			<hr>
+			     <form>
+				  <h4> 3. Preferências de Adoção</h4>
+				   <div class="form-row">
+					<div class="form-group col-md-7">
+					  <label for="inputState">Qual tipo de animal você está interessado em adotar?</label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Cão</option>
+						<option>Gato</option>
+						</select>
+					</div>
+					<div class="form-group col-md-3">
+					  <label for="inputState">Preferência de Idade</label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Novo</option>
+						<option>Jovem</option>
+						<option>Adulto</option>
+						</select>
+					</div>
+					<div class="form-group col-md-3">
+					  <label for="inputState">Preferência de Tamanho</label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Pequeno</option>
+						<option>Médio</option>
+						<option>Grande</option>
+						</select>
+					</div>
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Tem alguma restrição ou necessidade especial?</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Alergias, preferências de temperamento">
+					</div> 
+			     </form>
+				 <hr>
+			     <form>
+				  <h4> 4. Experiência com Animais</h4>
+				   <div class="form-row">
+					<div class="form-group col-md-11">
+					  <label for="inputState">Você já teve animais de estimação antes? </label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Sim</option>
+						<option>Não</option>
+						</select>
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity"> o	Se sim, descreva a experiência e o tipo de animais que você teve:</label>
+					  <input type="text" class="form-control" id="inputCity">
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Você tem alguma experiência com cuidados específicos?</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="cuidados com animais, idosos, treinamento">
+					</div>
+					</div>
+					</form>
+					<form>
+					<h4> 5. Comprometimento e Preparação</h4>
+				   <div class="form-row">
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Como você planeja lidar com os desafios de um novo animal?</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1"> 
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Como você planeja proporcionar exercício, treinamento e socialização para o animal?</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1">
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputState">Você está ciente das despesas envolvidas em cuidar de um animal? </label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Sim</option>
+						<option>Não</option>
+						</select>
+					</div>
+					</div>
+					</form>
+					<form>
+					<h4>6. Inspeção</h4>
+					<div class="form-row">
+					<div class="form-group col-md-11">
+					  <label for="inputState">Você está disposto a permitir uma visita domiciliar antes da adoção? </label>
+					  <select id="inputState" class="form-control">
+						<option selected>Escolha</option>
+						<option>Sim</option>
+						<option>Não</option>
+						</select>
+					</div>
+					</div>
+					</form>
+					<form>
+					<h4>7. Declaração e Assinatura</h4>
+					<div class="form-row">
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Eu declaro que as informações fornecidas neste formulário são verdadeiras e completas. Entendo que qualquer falsificação ou omissão pode resultar na recusa da adoção.</label>
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Assinatura:</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1">
+					</div>
+					<div class="form-group col-md-11">
+					  <label for="inputCity">Data:</label>
+					  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="dia/mês/ano">
+					</div>
+					</div>
+					</form>
+					<!--Fim Home -->
+					  
+			</body>
+
+</html>
+			
+			
